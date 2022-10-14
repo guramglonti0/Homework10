@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+@import url('http://fonts.cdnfonts.com/css/playfair-display');
+body{
+    background: rgba(34, 42, 54, 0.95);
+}
+img{
+    width: 100%;
+}
+@font-face {
+    font-family: PoppinsRegular;
+    src: url(/fonts/Poppins-Regular.ttf);
+  }
+@font-face {
+font-family: PoppinsSemiBold;
+src: url(/fonts/Poppins-SemiBold.ttf);
+}
+.nav-link{
+    font-family: 'PoppinsRegular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.btn_cotnact{
+    padding: 10px 20px;
+    width: 152px;
+    height: 50px;
+    background: #676CDB;
+    color: white;
+    font-weight: 600;
+}
+.banner_text{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+.text-gray{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+    color: rgba(255, 255, 255, 0.5);
+}
+.banner{
+    background-image: url("../img/Rectangle\ 3.png");
+    background-position:right;
+    background-repeat: no-repeat;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+.mobile_image{
+    display: none;
+}
+@media only screen and (max-width: 992px){
+    .banner{
+        background-image: none;
+    }
+    .mobile_image{
+        display: block;
+    }
+    .banner_text{
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 120%;
+        color: #FFFFFF;
+    }
+}
+.download_cv{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+.image-container{
+    height: 80px;
+} 
+.banner1{ 
+    height: 200px; 
+    background-color: black; 
+    width: 100%;
+} 
+.textbx{
+    /* position: absolute; */
+    width: 800px;
+    height: 254.35px;
+    left: 329px;
+    top: 1019px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 180%;
+    text-align: center;
+    color: #FFFFFF;
+} 
+.text-container{
+    height: 255px; 
+    width: 800px;
+} 
+.textbx2{
+    width: 207px;
+    height: 381.52px;
+    left: 122px;
+    top: 1368.68px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 180%;
+    color: #FFFFFF;
+} 
+.textbx3{
+    width: 133px;
+    height: 211.96px;
+    left: 353px;
+    top: 1386px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 120%;
+    color: #676CDB;
+} 
+.text-container2{
+    height: 625px ; 
+    background-color: #676CDB;
+} 
+.image-container2{
+    width: 70px;
+    height: 40px;
+} 
+.textbx4{
+    width: 182.44px;
+    height: 65.46px;
+    left: 758px;
+    top: 1916.55px;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+} 
+.text-container4{ 
+    height: 622px; 
+    /* background-color: red */
+    
+} 
+.text-container3{ 
+    height: 288px; 
+    width: 100%;
+    background-color:  #C4C4C4;
+} 
+.textbx5{
+    width: 96px;
+    height: 46.08px;
+    left: 1062px;
+    top: 1587.44px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: #222A36;
+} 
+.image-container3{
+    height: 391px;
+    width: 389px; 
+    
+} 
+.textbx6{
+    width: 47px;
+    height: 77px;
+    left: 404px;
+    top: 0px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 120%;
+    color: #C4C4C4;
+} 
+.textbx7{ 
+    width: 490px;
+    height: 252px;
+    left: 404px;
+    top: 77px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 180%;
+    color: #FFFFFF;
+}
+.banner2{ 
+    height: 80px; 
+    background-color: black; 
+    width: 100%; 
+} 
+.tetri{
+    color: #FFFFFF;
+} 
+.nacrisferi{
+    color: rgba(255, 255, 255, 0.5);
+}
